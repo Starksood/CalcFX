@@ -64,7 +64,7 @@ This JavaFX Calculator is a comprehensive desktop application that provides user
       <em>Memory functions in use</em>
     </td>
     <td align="center">
-      <img src="screenshots/Screenshot%202026-05-01%20at%2022.25.37.png" alt="Dark Theme" width="400"/>
+      <img src="screenshots/Screenshot%202026-05-01%20at%2022.25.01.png" alt="Dark Theme" width="400"/>
       <br />
       <em>Dark theme mode</em>
     </td>
@@ -82,27 +82,6 @@ This JavaFX Calculator is a comprehensive desktop application that provides user
 5. **Memory**: Use M+/M- to store values, MR to recall, and MC to clear memory
 6. **History**: View all your calculations in the history panel at the bottom
 7. **Themes**: Switch between Light, Dark, and Off modes using the theme buttons
-
-## 🚀 New Concepts Used
-
-- **JavaFX Application Framework**: Building GUI applications with JavaFX
-- **Event Handling**: Using EventHandler and lambda expressions for button actions
-- **Switch Statements**: Implementing multi-case logic for button handling and styling
-- **BorderPane Layout**: Organizing UI components in top, center, and bottom zones
-- **GridPane Layout**: Creating a responsive button grid with equal column widths
-- **VBox Container**: Vertically stacking multiple UI components
-- **TextField and TextArea Controls**: Displaying input/output and history
-- **Text Control**: Showing memory status
-- **CSS Styling in JavaFX**: Applying inline styles with `-fx-` properties
-- **String Manipulation**: Using `substring()`, `contains()`, and `valueOf()` methods
-- **Double Parsing**: Converting strings to doubles with `Double.parseDouble()`
-- **Math Operations**: Using `Math.pow()` and `Math.sqrt()` for advanced calculations
-- **Instance Variables**: Managing application state across methods
-- **Method Overriding**: Overriding the `start()` method from Application class
-- **Lambda Expressions**: Creating concise event handlers
-- **Compound Operators**: Using `+=` and `-=` for memory operations
-- **JavaDoc Documentation**: Writing professional code documentation
-- **Conditional Logic**: Implementing validation (e.g., preventing multiple decimal points)
 
 ## 🛠️ Technical Details
 
@@ -180,44 +159,4 @@ Advanced operations like power and square root are supported, with all calculati
 Store and recall values using the memory buttons (M+, M-, MR, MC) displayed in blue.
 
 ![Memory Functions](screenshots/Screenshot%202026-05-01%20at%2022.25.27.png)
-
-### Dark Theme Mode
-Switch to dark mode for comfortable viewing in low-light environments.
-
-![Dark Theme](screenshots/Screenshot%202026-05-01%20at%2022.25.37.png)
-
-## 👨‍💻 Author
-
-**[Your Name]**
-- GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-- LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-- Portfolio: [https://yourportfolio.com](https://yourportfolio.com)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- JavaFX documentation and community
-- Course instructor and teaching assistants
-- Stack Overflow community for troubleshooting support
-
-## 📝 Version History
-
-- **v2.0** (Current)
-  - Added calculation history feature
-  - Implemented memory functions (M+, M-, MR, MC)
-  - Added theme switching (Light, Dark, Off)
-  - Added advanced operations (power, square root)
-  - Added input controls (backspace, clear entry)
-  - Improved button styling with color coding
-  
-- **v1.0** (Initial Release)
-  - Basic arithmetic operations
-  - Simple calculator interface
-
 ---
-
-*Built with ❤️ using JavaFX*
