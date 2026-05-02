@@ -14,11 +14,15 @@ import javafx.geometry.Pos;
 public class JavaFXCalculator extends Application {
     private TextField tfDisplay;    // display textfield
     private Button[] btns;          // 16 buttons
-    private String[] btnLabels = {  // Labels of 16 buttons
-            "7", "8", "9", "+",
-            "4", "5", "6", "-",
-            "1", "2", "3", "x",
-            "C", "0", "=", "/"
+    private String[] btnLabels = {   // Labels of 16 buttons
+            "Off", "Dark", "Light", "+",
+            "7", "8", "9", "-",
+            "4", "5", "6", "x",
+            "1", "2", "3", "/",
+            ".", "0", "=", "sqr",
+            "C", "CE", "<-", "^",
+            "M+", "M-", "MR", "MC"
+
     };
     // For computation
     private int result = 0;      // Result of computation
@@ -108,9 +112,8 @@ public class JavaFXCalculator extends Application {
         tfDisplay.setEditable(false);
         tfDisplay.setAlignment(Pos.CENTER_RIGHT);
 
-        // Setup a GridPane for 4x4 Buttons
+        // Setup a GridPane for 7x4 Buttons
         int numCols = 4;
-        int numRows = 4;
         GridPane paneButton = new GridPane();
         paneButton.setPadding(new Insets(15, 0, 15, 0));  // top, right, bottom, left
         paneButton.setVgap(5);  // Vertical gap between nodes
@@ -125,7 +128,7 @@ public class JavaFXCalculator extends Application {
         }
 
         // Setup 16 Buttons and add to GridPane; and event handler
-        btns = new Button[16];
+        btns = new Button[28];
         for (int i = 0; i < btns.length; ++i) {
             btns[i] = new Button(btnLabels[i]);
             btns[i].setOnAction(handler);  // Register event handler
