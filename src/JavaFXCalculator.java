@@ -27,7 +27,7 @@ import static java.lang.Math.pow;
  * - Calculation history: displays all completed operations in a TextArea
  * - Memory display: shows current memory value
  * 
- * @author [Your Name]
+ * @author Sanyam Sood
  * @version 2.0
  */
 public class JavaFXCalculator extends Application {
